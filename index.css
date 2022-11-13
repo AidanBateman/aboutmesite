@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+html{
+    font-size:20px;
+}
+body{
+    background-color: rgb(128, 128, 128);
+}
+
+h1{
+    text-decoration: underline;
+    text-align: left;
+    color: rgb(91, 122, 102);
+    font-size:1.5rem;
+    margin-bottom:1rem;
+}
+
+/* img{
+    max-width: 888px;
+    max-height: 666px;
+} */
+
+footer img{
+    width:69px;
+    height:69px;
+}
+
+#name{
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+    display:inline-block;
+    text-align:center;
+}
+
+nav{
+    float:right;
+    font-family: 'Ubuntu', sans-serif;
+    padding:1rem;
+    margin:auto;
+}
+
+header{
+    text-align: left;
+    padding: 25px;
+    background-color: antiquewhite;
+    border: 5px solid black;
+    box-shadow: 9px 9px 9px rgba(69, 69, 69, 0.334);
+    /* position:fixed; */
+    top:0;
+    left:0;
+    right:0;
+    
+}
+
+main{
+    margin-top: 66px;
+    margin-bottom:66px;
+}
+
+section{
+    padding:25px;
+    border:1px solid black;
+    /* text-align:center; */
+    margin:22px;
+    box-shadow: 9px 9px 9px rgba(69, 69, 69, 0.334);
+}
+
+.firstfew{
+    background-color: black;
+    color: white;
+    font-size:1.25rem;
+    overflow:auto;
+}
+
+footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:11px;
+    text-align:center;
+}
+
+#dark1{
+    width:fit-content;
+    margin:auto;
+    
+}
+/* section:last-child{
+    background-color: violet;
+ */
+
+h1:hover{
+    color:rgb(173, 162, 162);
+    font-size: 1.5rem;
+}
+
+.imageleft{
+    padding:10px;
+    float:left; 
+    margin-right: 5px;
+    
+    
+}
+
+.imageright{
+    background-color: rgb(20, 19, 19);
+    display:inline-block;
+    margin:auto;
+}
+
+.imageleft2{
+    padding:10px;
+    float:left; 
+    margin-right: 5px;
+    
+    
+}
+
+.firstfew2{
+    text-decoration: underline;
+    text-align: center;
+    color: rgb(91, 122, 102);
+    font-size:1.5rem;
+    margin-bottom:1rem;
+}
+
+.imageright2{
+    padding:10px;
+    float:right; 
+    margin-left: 5px;
+    height:fit-content;
+    width:fit-content; 
+}
+
+/* root */
+/* html{
+    font-size: 19px;
+}
+/* parent */
+/* body{
+    font-size: 10px;
+} */
+
+/* section{
+    font-size:1rem;
+}  */
+/* px = pixels */
+/* em - relevant to the parent */
+/* rem - relevant to the root html */
